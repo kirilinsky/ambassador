@@ -15,6 +15,7 @@ a {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: Futura;
+  color: #282828;
 }
 
 /* fonts */
@@ -43,7 +44,23 @@ a {
 
 @font-face {
   font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewDemi-Obl.woff") format("woff"),
+    url("../assets/fonts/FuturaNewDemi-Obl.woff2") format("woff2");
+  font-weight: 500;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Futura";
   src: url("../assets/fonts/FuturaNewMedium-Reg.woff") format("woff"),
     url("../assets/fonts/FuturaNewMedium-Reg.woff2") format("woff2");
   font-weight: 500;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewLight-Obl.woff") format("woff"),
+    url("../assets/fonts/FuturaNewLight-Obl.woff2") format("woff2");
+  font-weight: 300;
+  font-style: oblique;
 }

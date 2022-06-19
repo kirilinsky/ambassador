@@ -16,6 +16,7 @@ const Title = styled.h2`
 
 const Description = styled.p`
   font-size: 22px;
+  max-width: 570px;
   line-height: 120%;
   padding: 0;
   margin-top: 30px;
@@ -23,6 +24,7 @@ const Description = styled.p`
 
 const CardsWrapepr = styled.div`
   display: grid;
+  margin-top: 50px;
   grid-template-columns: repeat(3, minmax(auto, 360px));
   justify-content: space-between;
   gap: 60px;

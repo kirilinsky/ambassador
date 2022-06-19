@@ -4,6 +4,12 @@ import styled from "styled-components";
 /* assets */
 import logo from "./assets/logo.svg";
 
+const Link = styled.a`
+  display:flex; 
+  align-items:center;
+  justify-content:center; 
+`;
+
 const LogoImage = styled.img`
   width: 102px;
   height: 95px;
@@ -19,13 +25,13 @@ const LogoImage = styled.img`
 
 const Logo = () => {
   return (
-    <a
+    <Link
       traget="_blank"
       rel="noopener noreferrer"
       href="https://en.splatglobal.com/"
     >
       <LogoImage src={logo.src} alt="Splat Logo" />
-    </a>
+    </Link>
   );
 };
 
