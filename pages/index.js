@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import LoyalView from "../views/Loyal";
 import ProductsView from "../views/Product";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <ProductsView />
+      <LoyalView />
     </div>
   )
 }

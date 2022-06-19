@@ -6,13 +6,11 @@ const StyledContainer = styled.div`
   margin: 0 auto;
   @media screen and (max-width: 1400px) {
     width: 100%;
-    padding: 0 80px;
+    padding: 0 32px;
   }
-  @media screen and (max-width: 790px) {
-    padding: 0 40px;
-  }
+
   @media screen and (max-width: 520px) {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 `;
 
