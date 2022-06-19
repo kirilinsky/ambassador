@@ -13,4 +13,37 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Futura;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewBook-Reg.woff") format("woff"),
+    url("../assets/fonts/FuturaNewBook-Reg.woff2") format("woff2");
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewLight-Reg.woff") format("woff"),
+    url("../assets/fonts/FuturaNewLight-Reg.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewBook-Obl.woff") format("woff"),
+    url("../assets/fonts/FuturaNewBook-Obl.woff2") format("woff2");
+  font-weight: 400;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../assets/fonts/FuturaNewMedium-Reg.woff") format("woff"),
+    url("../assets/fonts/FuturaNewMedium-Reg.woff2") format("woff2");
+  font-weight: 500;
 }
